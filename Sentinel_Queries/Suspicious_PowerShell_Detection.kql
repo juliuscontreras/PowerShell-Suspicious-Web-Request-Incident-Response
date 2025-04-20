@@ -1,0 +1,4 @@
+DeviceProcessEvents
+| where FileName =~ "powershell.exe"
+| where ProcessCommandLine has "Invoke-WebRequest"
+| project Timestamp=TimeGenerated, DeviceName, AccountName, ProcessCommandLine
