@@ -23,9 +23,22 @@ A suspicious PowerShell activity was detected on an internal host, leading to th
 
 ## Repository Structure
 
-- `Documentation/`: Guides and reports for incident response and post-analysis.
-- `Sentinel_Queries/`: KQL queries used during investigation.
-- `Scripts/`: Details about scripts involved in the incident (scripts not included for safety).
+- [`Documentation/`](Documentation/)  
+  Guides and reports for incident response and post-analysis.
+  - [`Incident_Response_Guide.md`](Documentation/Incident_Response_Guide.md)
+  - [`Post-Incident_Report.md`](Documentation/Post-Incident_Report.md)
+
+- [`Sentinel_Queries/`](Sentinel_Queries/)  
+  KQL queries used during investigation.
+  - [`Suspicious_PowerShell_Detection.kql`](Sentinel_Queries/Suspicious_PowerShell_Detection.kql)
+  - [`Executed_Script_Validation.kql`](Sentinel_Queries/Executed_Script_Validation.kql)
+
+- [`Scripts/`](Scripts/)  
+  Details about scripts involved in the incident (scripts not included for safety).
+  - [`README.md`](Scripts/README.md)
+
+- [`README.md`](README.md)  
+  You are here.
 
 ## Security Disclaimer
 
